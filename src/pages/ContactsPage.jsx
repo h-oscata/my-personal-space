@@ -83,16 +83,16 @@ export default function Contacts() {
   return (
     <div className="p-6 text-white bg-gray-900 min-h-screen">
       <h1 className="text-3xl font-bold text-center mb-6">Mis Contactos</h1>
-      <div className="flex  mb-4">
+      <div className="flex sm:flex-row flex-col mb-4">
         <input
           type="text"
           placeholder="Buscar contacto..."
-          className="p-2 flex-1 rounded bg-gray-800 border border-gray-600 mr-12"
+          className=" p-2 flex-1 rounded bg-gray-800 border border-gray-600 sm:mr-12"
           onChange={(e) => setSearch(e.target.value)}
         />
         <button
           onClick={() => openModal()}
-          className="cursor-pointer flex items-center gap-2 bg-green-700 font-bold px-4 py-2 rounded hover:bg-green-600 "
+          className="sm:m-0 mt-4 cursor-pointer flex items-center gap-2 bg-green-700 font-bold px-4 py-2 rounded hover:bg-green-600 "
         >
           <IoMdAdd className="font-bold text-lg" /> Añadir Contacto
         </button>

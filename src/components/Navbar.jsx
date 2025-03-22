@@ -75,25 +75,25 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/citas"
+            to="/quotes"
             className="block text-lg text-center hover:text-gray-400 transition-all duration-300"
           >
             <FaCalendarAlt className="inline mr-2" />
             Mis Citas
           </Link>
           <Link
-            to="/contactos"
+            to="/contacts"
             className="block text-lg text-center hover:text-gray-400 transition-all duration-300"
           >
             <FaAddressBook className="inline mr-2" />
-            Contactos
+            Mis Contactos
           </Link>
           <Link
-            to="/notas"
+            to="/notes"
             className="block text-lg text-center hover:text-gray-400 transition-all duration-300"
           >
             <FaStickyNote className="inline mr-2" />
-            Notas
+            Mis Notas
           </Link>
         </motion.div>
       </div>
